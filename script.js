@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const data = Object.fromEntries(new FormData(form).entries());
 
     try {
-      const res = await fetch("https://script.google.com/macros/s/AKfycbzNXKjdX-RDmb8Vf7EQVfTUTnIMfY5G5HslOrUXz-03atuUdOd80CcyjRqRIFO4gZFGug/exec", {
+      const res = await fetch("https://script.google.com/macros/s/AKfycbygjVpDcluLIG_2PmdZZPmMqhuyM2orq0Fy8RWJlKw6b0uXBQhG24K-4k9RSX6YaSkn1g/exec", {
         method: "POST",
         body: JSON.stringify(data),
         headers: { "Content-Type": "application/json" },
