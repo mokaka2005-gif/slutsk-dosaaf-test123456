@@ -33,31 +33,34 @@
     <section class="form-section">
       <h2>Оставить заявку на обучение</h2>
       <form id="trainingForm">
-        <label for="name">ФИО:</label>
-        <input type="text" id="name" name="name" required />
+  <label for="name">ФИО:</label>
+  <input type="text" id="name" name="name" required />
 
-        <label for="phone">Телефон:</label>
-        <input type="tel" id="phone" name="phone" required />
+  <label for="phone">Телефон:</label>
+  <input type="tel" id="phone" name="phone" required />
 
-        <label for="course">Категория обучения:</label>
-        <select id="course" name="course" required>
-        <label for="data">Дата рождения:</label>
-        <input type="text" id="data" name="data" required />
-        <label for="prop">Место жительства:</label>
-        <input type="text" id="prop" name="prop" required />
-          <option value="">Выберите категорию</option>
-          <option value="A">A (мотоцикл)</option>
-          <option value="B">B (легковой автомобиль)</option>
-          <option value="C">C (грузовой автомобиль)</option>
-          <option value="Е">Е (грузовой с прицепом)</option>
-          <option value="D">D (автобус)</option>
-        </select>
+  <label for="data">Дата рождения:</label>
+  <input type="text" id="data" name="data" required />
 
-        <label for="comment">Комментарий:</label>
-        <textarea id="comment" name="comment" rows="3"></textarea>
+  <label for="prop">Место жительства:</label>
+  <input type="text" id="prop" name="prop" required />
 
-        <button type="submit">Отправить заявку</button>
-      </form>
+  <label for="course">Категория обучения:</label>
+  <select id="course" name="course" required>
+    <option value="">Выберите категорию</option>
+    <option value="A">A (мотоцикл)</option>
+    <option value="B">B (легковой автомобиль)</option>
+    <option value="C">C (грузовой автомобиль)</option>
+    <option value="E">E (грузовой с прицепом)</option>
+    <option value="D">D (автобус)</option>
+  </select>
+
+  <label for="comment">Комментарий:</label>
+  <textarea id="comment" name="comment" rows="3"></textarea>
+
+  <button type="submit">Отправить заявку</button>
+  <p id="status" style="text-align:center;margin-top:10px;color:#003399;"></p>
+</form>
     </section>
   </main>
 
