@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const data = Object.fromEntries(new FormData(form).entries());
 
     try {
-      const res = await fetch("https://script.google.com/macros/s/AKfycbyv8gdo0F4knttKXUMPPiZ1W3OFVSYLrBhMtkbnTw_YH-5ekPBiu5IZLwte28xV7PAguw/exec", { // вставь ссылку на Google Script
+      const res = await fetch("https://script.google.com/macros/s/AKfycbzNXKjdX-RDmb8Vf7EQVfTUTnIMfY5G5HslOrUXz-03atuUdOd80CcyjRqRIFO4gZFGug/exec", { // вставь ссылку на Google Script
         method: "POST",
         body: JSON.stringify(data)
       });
